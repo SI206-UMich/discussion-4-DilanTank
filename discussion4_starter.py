@@ -8,9 +8,14 @@ class Rectangle():
         
         return ("A rectangle with width {self.width} and height {self.height}")
 
-    
+    def verify_input(self):
+        if self.width == True and self.height == True:
+            return True
+        else: 
+            return False
 
-    
+
+
 
     # Create the "verify_input" method
     #
